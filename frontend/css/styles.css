@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  h1, h2 {
+    color: #003366; /* Dark blue for headings */
+  }
+  
+  .table thead th {
+    background-color: #003366; /* Dark blue for table header */
+    color: #fff; /* White text */
+  }
+  
+  .btn-primary {
+    background-color: #003366; /* Dark blue for primary button */
+    border-color: #003366;
+  }
+  
+  .btn-primary:hover {
+    background-color: #002244; /* Darker blue on hover */
+    border-color: #002244;
+  }
+  
+  .btn-warning {
+    background-color: #ffcc00; /* Yellow for warning button */
+    border-color: #ffcc00;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ff9900; /* Darker yellow on hover */
+    border-color: #ff9900;
+  }
+  
+  .btn-danger {
+    background-color: #cc0000; /* Red for danger button */
+    border-color: #cc0000;
+  }
+  
+  .btn-danger:hover {
+    background-color: #990000; /* Darker red on hover */
+    border-color: #990000;
+  }
+  

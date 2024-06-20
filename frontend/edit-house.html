@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit House</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Edit House</h2>
+    <form id="editHouseForm">
+      <input type="hidden" id="houseId">
+      <div class="form-group">
+        <label for="ownerName">Owner Name</label>
+        <input type="text" class="form-control" id="ownerName" required>
+      </div>
+      <div class="form-group">
+        <label for="street">Street</label>
+        <input type="text" class="form-control" id="street" required>
+      </div>
+      <div class="form-group">
+        <label for="number">Number</label>
+        <input type="text" class="form-control" id="number" required>
+      </div>
+      <div class="form-group">
+        <label for="postalCode">Postal Code</label>
+        <input type="text" class="form-control" id="postalCode" required>
+      </div>
+      <div class="form-group">
+        <label for="complement">Complement</label>
+        <input type="text" class="form-control" id="complement">
+      </div>
+      <button type="submit" class="btn btn-primary">Update House</button>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
